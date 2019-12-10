@@ -5,7 +5,12 @@ const data = [
 
   { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
   { id: 'Bass', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' }
+  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
+  {id: 'High Hat', letter: 'F', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
+  {id: 'High Hat', letter: 'G', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
+  {id: 'High Hat', letter: 'H', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
+  {id: 'High Hat', letter: 'J', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
+ 
 ]
 
 class DrumPad extends React.Component {
@@ -21,7 +26,8 @@ class DrumPad extends React.Component {
  }
   
   handleKeydown = e => {
-    if(e.keyCode === this.props.letter.charCodeAt()) {
+    if(e.keyCode === this.props.letter.charCodeAt()
+    ) {
       this.audio.play()
       this.audio.currentTime = 0
       this.props.handleDisplay(this.props.id)
@@ -38,10 +44,10 @@ class DrumPad extends React.Component {
     return (
       <div 
           className='drum-pad' 
-          id={this.props.id}
           onClick={this.handleClick}
       >
         <h1>{this.props.letter}</h1>
+        <p>{this.props.id}</p>
         <audio id={this.props.letter}
                className='clip'
                src={this.props.src}
