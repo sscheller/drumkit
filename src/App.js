@@ -70,7 +70,7 @@ class App extends React.Component {
   render(){
     return(
     <div id='drum-machine'>
-        <div id='display'>{this.state.display}</div>
+        
         
         <div id='drum-pads'>{data.map(d => (
             
