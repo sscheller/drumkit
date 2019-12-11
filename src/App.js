@@ -4,15 +4,14 @@ import './App.css';
 const data = [
 
   { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'Elsa', letter: 'S', src: 'elsa.m4a' },
-  { id: 'Frog', letter: 'D', src: 'frogsquek.m4a' },
-  {id: 'Kawaii', letter: 'F', src: 'Kawaii.m4a'}, 
-  {id: 'Recorder', letter: 'G', src: 'recorder.m4a'}, 
-  {id: 'Ronnie', letter: 'H', src: 'ronnie.m4a'}, 
-  {id: 'Steve', letter: 'J', src: 'steve2.m4a'}, 
+  { id: 'Bass', letter: 'S', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/steve2.m4a' },
+  { id: 'High Hat', letter: 'D', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/Kawaii.m4a' },
+  {id: 'High Hat', letter: 'F', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/ronnie.m4a'}, 
+  {id: 'High Hat', letter: 'G', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/frogsquek.m4a'}, 
+  {id: 'High Hat', letter: 'H', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/elsa.m4a'}, 
+  {id: 'High Hat', letter: 'J', src: 'https://raw.githubusercontent.com/sscheller/drumkit/master/recorder.m4a'}, 
  
 ]
-
 class DrumPad extends React.Component {
  
   componentDidMount() {
