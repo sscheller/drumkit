@@ -4,12 +4,12 @@ import './App.css';
 const data = [
 
   { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'Bass', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
-  {id: 'High Hat', letter: 'F', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
-  {id: 'High Hat', letter: 'G', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
-  {id: 'High Hat', letter: 'H', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
-  {id: 'High Hat', letter: 'J', src: 'http://www.denhaku.com/r_box/tr707/closed.wav'}, 
+  { id: 'Elsa', letter: 'S', src: 'elsa.m4a' },
+  { id: 'Frog', letter: 'D', src: 'frogsquek.m4a' },
+  {id: 'Kawaii', letter: 'F', src: 'Kawaii.m4a'}, 
+  {id: 'Recorder', letter: 'G', src: 'recorder.m4a'}, 
+  {id: 'Ronnie', letter: 'H', src: 'ronnie.m4a'}, 
+  {id: 'Steve', letter: 'J', src: 'steve2.m4a'}, 
  
 ]
 
